@@ -1,0 +1,23 @@
+[project]
+name = "jew-course"
+version = "0.1.0"
+description = "Код курса Jev"
+requires-python = ">=3.14"
+dependencies = [
+    "jevcal>=0.2.0",
+    "laya[serve]>=0.4.21",
+    "typesafe-sdk>=0.7.5",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.10",
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+
+[tool.mypy]
+strict = true

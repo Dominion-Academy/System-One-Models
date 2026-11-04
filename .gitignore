@@ -1,0 +1,13 @@
+# Production-секреты
+.env
+.idea
+
+# Кэш
+**/__pycache__
+
+# Агентские файлы (если есть)
+.claude
+CLAUDE.md
+.venv
+.mypy_cache
+.ruff_cache
