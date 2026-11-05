@@ -1,0 +1,120 @@
+{"id": "t001", "split": "dev", "subject": "Charged twice", "body": "I was charged twice for the annual plan today. My card is now over its limit and payroll runs tomorrow. Please refund one charge.", "category": "billing", "urgent": true}
+{"id": "t002", "split": "dev", "subject": "Invoice copy", "body": "Could you send me a PDF copy of the March invoice? Our accountant needs it for the yearly report.", "category": "billing", "urgent": false}
+{"id": "t003", "split": "hold_out", "subject": "VAT number on invoice", "body": "Please add our VAT number DE123456789 to future invoices. Nothing urgent.", "category": "billing", "urgent": false}
+{"id": "t004", "split": "hold_out", "subject": "Payment failed, service suspended", "body": "Our payment failed and the workspace was suspended. 40 people cannot work right now. We updated the card, please reactivate.", "category": "billing", "urgent": true}
+{"id": "t005", "split": "dev", "subject": "Refund for unused seats", "body": "We removed 5 seats last month but still paid for them. Can we get a refund or credit for the difference?", "category": "billing", "urgent": false}
+{"id": "t006", "split": "hold_out", "subject": "Switch to yearly billing", "body": "How much would we save if we move from monthly to yearly billing?", "category": "billing", "urgent": false}
+{"id": "t007", "split": "dev", "subject": "Wrong amount charged before audit", "body": "You charged us $4,900 instead of $490. Our finance audit closes at 5 pm today and this charge must be reversed before then.", "category": "billing", "urgent": true}
+{"id": "t008", "split": "dev", "subject": "Receipt email address", "body": "Receipts go to my old email. Where can I change the billing contact?", "category": "billing", "urgent": false}
+{"id": "t009", "split": "hold_out", "subject": "Why did the price go up?", "body": "This month's invoice is 15% higher than last month. I did not change the plan. What happened? Honestly this is really annoying.", "category": "billing", "urgent": false}
+{"id": "t010", "split": "dev", "subject": "Discount for non-profit", "body": "We are a registered charity. Do you offer any discount for non-profits?", "category": "billing", "urgent": false}
+{"id": "t011", "split": "hold_out", "subject": "Card charged after cancellation", "body": "I cancelled last week, but you charged my card again this morning and now I can't pay my rent due today. Refund it now.", "category": "billing", "urgent": true}
+{"id": "t012", "split": "hold_out", "subject": "Currency of invoices", "body": "Is it possible to be billed in EUR instead of USD?", "category": "billing", "urgent": false}
+{"id": "t013", "split": "dev", "subject": "Duplicate invoice numbers", "body": "Two invoices from you have the same number INV-2231. Could you check and reissue one of them?", "category": "billing", "urgent": false}
+{"id": "t014", "split": "dev", "subject": "Trial converted, charged by mistake", "body": "My trial turned into a paid plan and charged $1,200 to the company card. The card gets blocked if not refunded by tomorrow.", "category": "billing", "urgent": true}
+{"id": "t015", "split": "hold_out", "subject": "Payment methods", "body": "Do you accept bank transfer or only credit cards?", "category": "billing", "urgent": false}
+{"id": "t016", "split": "dev", "subject": "Upgrade cost mid-cycle", "body": "If I upgrade from Basic to Pro in the middle of the month, how is the price calculated?", "category": "billing", "urgent": false}
+{"id": "t017", "split": "hold_out", "subject": "Old invoices", "body": "Where can I download invoices from 2024? The billing page shows only the last 12 months.", "category": "billing", "urgent": false}
+{"id": "t018", "split": "hold_out", "subject": "Double subscription", "body": "We somehow have two active subscriptions and were billed for both. Our budget for the quarter is blown and the CFO wants this fixed today.", "category": "billing", "urgent": true}
+{"id": "t019", "split": "dev", "subject": "Tax exemption certificate", "body": "We have a sales tax exemption certificate. How do we submit it so that tax is not added?", "category": "billing", "urgent": false}
+{"id": "t020", "split": "hold_out", "subject": "Coupon did not apply", "body": "I entered the code SPRING20 at checkout but the price stayed the same. Can you apply it retroactively?", "category": "billing", "urgent": false}
+{"id": "t021", "split": "dev", "subject": "Cancel subscription", "body": "Please cancel our subscription at the end of the current period. We are moving to another tool.", "category": "billing", "urgent": false}
+{"id": "t022", "split": "dev", "subject": "Refund needed for chargeback deadline", "body": "My bank says I must resolve the duplicate charge with you by end of day or the chargeback window closes. Please refund order #88213.", "category": "billing", "urgent": true}
+{"id": "t023", "split": "hold_out", "subject": "Billing cycle date", "body": "Can I change the billing date from the 3rd to the 1st of each month?", "category": "billing", "urgent": false}
+{"id": "t024", "split": "dev", "subject": "Price for 200 seats", "body": "We are planning to grow to 200 users next year. Is there volume pricing?", "category": "billing", "urgent": false}
+{"id": "t025", "split": "hold_out", "subject": "Overcharged again!!!", "body": "Third time this year you overcharged us by a few dollars. I am tired of checking every invoice. Please fix your billing.", "category": "billing", "urgent": false}
+{"id": "t026", "split": "hold_out", "subject": "Invoice blocking payment run", "body": "Our supplier payment run starts in two hours and your invoice has the wrong company name, so finance will reject it. Please reissue it right away.", "category": "billing", "urgent": true}
+{"id": "t027", "split": "dev", "subject": "Proforma invoice", "body": "Our procurement team needs a proforma invoice before they can approve the purchase.", "category": "billing", "urgent": false}
+{"id": "t028", "split": "hold_out", "subject": "Refund status", "body": "I requested a refund 10 days ago. Any update?", "category": "billing", "urgent": false}
+{"id": "t029", "split": "dev", "subject": "Student pricing", "body": "Is there a student price for the Pro plan?", "category": "billing", "urgent": false}
+{"id": "t030", "split": "dev", "subject": "Account locked for unpaid invoice", "body": "The account got locked over an invoice we already paid by wire. Our support team is offline and customers are waiting. Here is the transfer confirmation.", "category": "billing", "urgent": true}
+{"id": "t031", "split": "dev", "subject": "API returns 500", "body": "Our integration started returning 500 errors on every request 20 minutes ago. We can't process any customer orders until this is fixed.", "category": "technical", "urgent": true}
+{"id": "t032", "split": "dev", "subject": "Typo in docs", "body": "There is a typo in the API docs: 'recieve' in the webhooks section.", "category": "technical", "urgent": false}
+{"id": "t033", "split": "hold_out", "subject": "Data export broken before deadline", "body": "CSV export fails with a timeout. We must submit this data to the regulator by noon tomorrow.", "category": "technical", "urgent": true}
+{"id": "t034", "split": "hold_out", "subject": "Slow dashboard", "body": "The dashboard takes about 8 seconds to load in the mornings. Not critical, but annoying.", "category": "technical", "urgent": false}
+{"id": "t035", "split": "dev", "subject": "Webhooks stopped", "body": "Webhooks stopped arriving an hour ago. Our checkout depends on them and orders are piling up unpaid.", "category": "technical", "urgent": true}
+{"id": "t036", "split": "dev", "subject": "Dark mode glitch", "body": "In dark mode the chart legend text is almost invisible.", "category": "technical", "urgent": false}
+{"id": "t037", "split": "hold_out", "subject": "SDK version question", "body": "Which Python versions does your SDK support?", "category": "technical", "urgent": false}
+{"id": "t038", "split": "hold_out", "subject": "Production down after update", "body": "After your update this morning our production app crashes on startup with 'invalid token format'. All our users are affected.", "category": "technical", "urgent": true}
+{"id": "t039", "split": "dev", "subject": "Rate limit question", "body": "What is the rate limit for the search endpoint? We want to plan a batch job next month.", "category": "technical", "urgent": false}
+{"id": "t040", "split": "hold_out", "subject": "Mobile app crash on old phone", "body": "The mobile app crashes when I open settings on my old Android 9 phone. Other screens work.", "category": "technical", "urgent": false}
+{"id": "t041", "split": "dev", "subject": "Sync deletes records", "body": "Since yesterday the sync is deleting records from our CRM. We have already lost 300 contacts and it keeps going.", "category": "technical", "urgent": true}
+{"id": "t042", "split": "dev", "subject": "Feature flag not working", "body": "The beta flag for the new editor does not seem to do anything for my account.", "category": "technical", "urgent": false}
+{"id": "t043", "split": "hold_out", "subject": "Timezone wrong in reports", "body": "Weekly reports show times in UTC instead of our local time.", "category": "technical", "urgent": false}
+{"id": "t044", "split": "hold_out", "subject": "Payments page blank", "body": "Our customers see a blank payments page since 10:00. We are losing sales every minute. Please help!", "category": "technical", "urgent": true}
+{"id": "t045", "split": "dev", "subject": "Error message unclear", "body": "When an upload fails the app just says 'Error 17'. Could the message be more helpful?", "category": "technical", "urgent": false}
+{"id": "t046", "split": "hold_out", "subject": "This bug is driving me crazy", "body": "For two weeks the search ignores the date filter. I reported it before. Fix it already, it's ridiculous.", "category": "technical", "urgent": false}
+{"id": "t047", "split": "dev", "subject": "SSL certificate expired", "body": "Our custom domain shows an expired certificate warning and customers can't open the portal at all.", "category": "technical", "urgent": true}
+{"id": "t048", "split": "dev", "subject": "Import from Excel", "body": "Does the import support .xlsx files or only CSV?", "category": "technical", "urgent": false}
+{"id": "t049", "split": "hold_out", "subject": "Broken link in email", "body": "The 'view in browser' link in your newsletter leads to a 404 page.", "category": "technical", "urgent": false}
+{"id": "t050", "split": "hold_out", "subject": "Database migration stuck", "body": "The migration tool is stuck at 60% for 3 hours and our store has been in maintenance mode the whole time.", "category": "technical", "urgent": true}
+{"id": "t051", "split": "dev", "subject": "API pagination", "body": "How do I get more than 100 results from the list endpoint? Is there pagination?", "category": "technical", "urgent": false}
+{"id": "t052", "split": "hold_out", "subject": "Chrome extension slow", "body": "Your Chrome extension makes Gmail noticeably slower.", "category": "technical", "urgent": false}
+{"id": "t053", "split": "dev", "subject": "Login API outage for our app", "body": "Your auth API returns 503 and none of our users can sign in to our app. Launch event is in one hour.", "category": "technical", "urgent": true}
+{"id": "t054", "split": "dev", "subject": "Memory usage", "body": "The desktop app uses 2 GB of RAM after a day of work. Is that expected?", "category": "technical", "urgent": false}
+{"id": "t055", "split": "hold_out", "subject": "Integration with Slack", "body": "Notifications to Slack stopped including the ticket title. Small thing but please check.", "category": "technical", "urgent": false}
+{"id": "t056", "split": "hold_out", "subject": "Duplicate emails to customers", "body": "Your system is sending every notification to our customers 5 times. People are complaining and threatening to cancel.", "category": "technical", "urgent": true}
+{"id": "t057", "split": "dev", "subject": "Docs for webhooks signature", "body": "Where can I find how to verify the webhook signature?", "category": "technical", "urgent": false}
+{"id": "t058", "split": "hold_out", "subject": "Print layout", "body": "When I print an invoice from the app the logo is cut off.", "category": "technical", "urgent": false}
+{"id": "t059", "split": "dev", "subject": "Search returns old data", "body": "After editing a product, search still shows the old name for a few minutes.", "category": "technical", "urgent": false}
+{"id": "t060", "split": "dev", "subject": "Reports empty before board meeting", "body": "All reports are empty since last night. The board meeting starts at 9 am and I need these numbers.", "category": "technical", "urgent": true}
+{"id": "t061", "split": "dev", "subject": "Locked out before demo", "body": "I can't log in: the password reset email never arrives, and I have a demo for investors in one hour.", "category": "account", "urgent": true}
+{"id": "t062", "split": "dev", "subject": "Change email", "body": "How do I change the email address on my account? No rush, just curious.", "category": "account", "urgent": false}
+{"id": "t063", "split": "hold_out", "subject": "Delete my account", "body": "Please delete my account and all my personal data.", "category": "account", "urgent": false}
+{"id": "t064", "split": "hold_out", "subject": "Account hacked", "body": "Someone changed my password and email. I see logins from another country. Please lock the account now.", "category": "account", "urgent": true}
+{"id": "t065", "split": "dev", "subject": "Add a teammate", "body": "How can I invite a colleague to our workspace?", "category": "account", "urgent": false}
+{"id": "t066", "split": "hold_out", "subject": "Two-factor setup", "body": "I want to enable two-factor authentication. Which apps are supported?", "category": "account", "urgent": false}
+{"id": "t067", "split": "dev", "subject": "Admin left the company", "body": "Our only admin left yesterday and nobody can manage the workspace. New employees start today and need access.", "category": "account", "urgent": true}
+{"id": "t068", "split": "dev", "subject": "Rename workspace", "body": "Can we rename our workspace from 'Test' to our company name?", "category": "account", "urgent": false}
+{"id": "t069", "split": "hold_out", "subject": "Profile photo", "body": "My profile photo upload keeps failing. Is there a size limit?", "category": "account", "urgent": false}
+{"id": "t070", "split": "dev", "subject": "Merge two accounts", "body": "I accidentally created two accounts with different emails. Can they be merged?", "category": "account", "urgent": false}
+{"id": "t071", "split": "hold_out", "subject": "2FA phone lost", "body": "I lost my phone with the 2FA app and I am locked out. I need to send contracts from the account today.", "category": "account", "urgent": true}
+{"id": "t072", "split": "hold_out", "subject": "Change username", "body": "Is it possible to change my username?", "category": "account", "urgent": false}
+{"id": "t073", "split": "dev", "subject": "Transfer ownership", "body": "I'm leaving the team next month. How do I transfer ownership of the workspace to my colleague?", "category": "account", "urgent": false}
+{"id": "t074", "split": "hold_out", "subject": "SSO question", "body": "Do you support SAML single sign-on on the Business plan?", "category": "account", "urgent": false}
+{"id": "t075", "split": "dev", "subject": "Employee still has access", "body": "We fired an employee an hour ago and he still has access to client data. Remove him immediately.", "category": "account", "urgent": true}
+{"id": "t076", "split": "dev", "subject": "Language settings", "body": "How do I switch the interface to German?", "category": "account", "urgent": false}
+{"id": "t077", "split": "hold_out", "subject": "Notification settings", "body": "I get too many emails from you. Where can I turn some of them off?", "category": "account", "urgent": false}
+{"id": "t078", "split": "dev", "subject": "You keep logging me out", "body": "Every day the app logs me out and I have to type my password again. This is very irritating.", "category": "account", "urgent": false}
+{"id": "t079", "split": "hold_out", "subject": "Wrong person got admin rights", "body": "We gave admin rights to the wrong person by mistake and they started deleting projects. Please revoke it now.", "category": "account", "urgent": true}
+{"id": "t080", "split": "hold_out", "subject": "Account verification", "body": "I didn't get the verification email after sign-up. Can you resend it?", "category": "account", "urgent": false}
+{"id": "t081", "split": "dev", "subject": "Export my data", "body": "I'd like to download all data related to my account for my records.", "category": "account", "urgent": false}
+{"id": "t082", "split": "hold_out", "subject": "Change company name", "body": "Our company was renamed. How do we update the organization name in the account?", "category": "account", "urgent": false}
+{"id": "t083", "split": "dev", "subject": "Locked after failed attempts", "body": "The account locked after failed logins. I'm the only one who can approve today's payroll and it must go out by 3 pm.", "category": "account", "urgent": true}
+{"id": "t084", "split": "dev", "subject": "Guest access", "body": "Can I give a client read-only access to one project?", "category": "account", "urgent": false}
+{"id": "t085", "split": "hold_out", "subject": "Password rules", "body": "What are the password requirements? My new password keeps being rejected.", "category": "account", "urgent": false}
+{"id": "t086", "split": "dev", "subject": "Close duplicate workspace", "body": "We have an empty duplicate workspace. Please remove it.", "category": "account", "urgent": false}
+{"id": "t087", "split": "hold_out", "subject": "Suspicious login alerts", "body": "I got 10 alerts about logins from unknown devices in the last 10 minutes. I think someone is in my account right now.", "category": "account", "urgent": true}
+{"id": "t088", "split": "hold_out", "subject": "Change phone number", "body": "How can I update the phone number used for account recovery?", "category": "account", "urgent": false}
+{"id": "t089", "split": "dev", "subject": "Role permissions", "body": "What is the difference between Editor and Manager roles?", "category": "account", "urgent": false}
+{"id": "t090", "split": "hold_out", "subject": "Session timeout", "body": "Can admins set a shorter session timeout for all users?", "category": "account", "urgent": false}
+{"id": "t091", "split": "dev", "subject": "Dark theme?", "body": "Hi! Do you have a dark theme for the dashboard? It would be a nice feature to have.", "category": "other", "urgent": false}
+{"id": "t092", "split": "hold_out", "subject": "Thank you", "body": "Just wanted to say your support team was great last week. Thanks!", "category": "other", "urgent": false}
+{"id": "t093", "split": "dev", "subject": "Feature request: calendar view", "body": "It would be great to have a calendar view for tasks.", "category": "other", "urgent": false}
+{"id": "t094", "split": "hold_out", "subject": "Partnership", "body": "We are an agency and would like to become a reseller. Who should we talk to?", "category": "other", "urgent": false}
+{"id": "t095", "split": "dev", "subject": "Roadmap question", "body": "Are you planning an offline mode this year?", "category": "other", "urgent": false}
+{"id": "t096", "split": "hold_out", "subject": "Webinar recording", "body": "Where can I find the recording of yesterday's webinar?", "category": "other", "urgent": false}
+{"id": "t097", "split": "dev", "subject": "Job application", "body": "Are you hiring support engineers in Berlin?", "category": "other", "urgent": false}
+{"id": "t098", "split": "dev", "subject": "Press inquiry with deadline", "body": "I'm a journalist writing about your outage. I need a comment from your team within the next hour before publication.", "category": "other", "urgent": true}
+{"id": "t099", "split": "hold_out", "subject": "Survey feedback", "body": "Your NPS survey has a broken scale on mobile, just letting you know.", "category": "other", "urgent": false}
+{"id": "t100", "split": "dev", "subject": "Case study", "body": "We'd be happy to be featured in a case study. Interested?", "category": "other", "urgent": false}
+{"id": "t101", "split": "hold_out", "subject": "Your product is terrible", "body": "I hate the new design. Everything moved and nothing makes sense. Bring back the old one!", "category": "other", "urgent": false}
+{"id": "t102", "split": "dev", "subject": "Conference sponsorship", "body": "Would you like to sponsor our developer conference in May?", "category": "other", "urgent": false}
+{"id": "t103", "split": "hold_out", "subject": "Training materials", "body": "Do you have training videos for new employees?", "category": "other", "urgent": false}
+{"id": "t104", "split": "hold_out", "subject": "Legal notice", "body": "We received a court order requiring data preservation for case 24-117 starting today. Please confirm who handles legal requests.", "category": "other", "urgent": true}
+{"id": "t105", "split": "dev", "subject": "API for education", "body": "Is there a sandbox we can use in a university course?", "category": "other", "urgent": false}
+{"id": "t106", "split": "hold_out", "subject": "Accessibility", "body": "Does your app support screen readers? We have a blind colleague joining.", "category": "other", "urgent": false}
+{"id": "t107", "split": "dev", "subject": "Suggestion for keyboard shortcuts", "body": "Please add a shortcut to archive items. I use it a lot.", "category": "other", "urgent": false}
+{"id": "t108", "split": "hold_out", "subject": "Security questionnaire", "body": "Our security team needs your SOC 2 report for vendor review next quarter.", "category": "other", "urgent": false}
+{"id": "t109", "split": "dev", "subject": "Integration idea", "body": "Any plans to integrate with Notion?", "category": "other", "urgent": false}
+{"id": "t110", "split": "hold_out", "subject": "Office address", "body": "What is your office address for sending documents?", "category": "other", "urgent": false}
+{"id": "t111", "split": "dev", "subject": "Security vulnerability report", "body": "I found a way to read other customers' files through your public share links. It is being exploited right now; who is your security contact?", "category": "other", "urgent": true}
+{"id": "t112", "split": "dev", "subject": "Merch", "body": "Do you sell branded t-shirts? Our team loves your product.", "category": "other", "urgent": false}
+{"id": "t113", "split": "hold_out", "subject": "Compliance question", "body": "Is your data stored in the EU?", "category": "other", "urgent": false}
+{"id": "t114", "split": "dev", "subject": "Beta program", "body": "How can I join the beta testing program?", "category": "other", "urgent": false}
+{"id": "t115", "split": "hold_out", "subject": "Community forum", "body": "Is there a community forum where users share templates?", "category": "other", "urgent": false}
+{"id": "t116", "split": "dev", "subject": "Testimonial", "body": "Your tool saved us hours every week. Feel free to quote me.", "category": "other", "urgent": false}
+{"id": "t117", "split": "hold_out", "subject": "Holiday hours", "body": "Will support be available during the holidays?", "category": "other", "urgent": false}
+{"id": "t118", "split": "hold_out", "subject": "Media outage live", "body": "A TV crew is filming a live segment about our store in 30 minutes and we need to know if your platform outage will be over by then.", "category": "other", "urgent": true}
+{"id": "t119", "split": "dev", "subject": "Referral program", "body": "Do you have a referral program?", "category": "other", "urgent": false}
+{"id": "t120", "split": "hold_out", "subject": "Template request", "body": "Could you add a template for weekly team retrospectives?", "category": "other", "urgent": false}

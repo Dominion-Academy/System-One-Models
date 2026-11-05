@@ -1,0 +1,42 @@
+[
+  {
+    "ticket": "I was charged twice for my annual subscription this month. I asked for a refund two weeks ago and nobody has replied.",
+    "category": "billing",
+    "category_probability": 0.9317,
+    "urgent": true,
+    "urgent_probability": 0.5312,
+    "seconds": 2.717030399988289
+  },
+  {
+    "ticket": "Our API integration started returning 500 errors on every request 20 minutes ago. We can't process any customer orders until this is fixed.",
+    "category": "technical",
+    "category_probability": 0.8485,
+    "urgent": true,
+    "urgent_probability": 0.6197,
+    "seconds": 0.5117781000008108
+  },
+  {
+    "ticket": "How do I change the email address on my account? No rush, just curious.",
+    "category": "account",
+    "category_probability": 0.3102,
+    "urgent": false,
+    "urgent_probability": 0.3921,
+    "seconds": 0.5000878999999259
+  },
+  {
+    "ticket": "Hi! Do you have a dark theme for the dashboard? It would be a nice feature to have.",
+    "category": "other",
+    "category_probability": 0.5126,
+    "urgent": false,
+    "urgent_probability": 0.4011,
+    "seconds": 0.5271310999960406
+  },
+  {
+    "ticket": "I can't log in: the password reset email never arrives, and I have a demo for investors in one hour.",
+    "category": "account",
+    "category_probability": 0.9084,
+    "urgent": false,
+    "urgent_probability": 0.4886,
+    "seconds": 0.5125557999999728
+  }
+]

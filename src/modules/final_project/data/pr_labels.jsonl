@@ -1,0 +1,40 @@
+{"id": "p01", "split": "dev", "title": "Fix crash when user list is empty", "body": "Calling render on an empty list raised IndexError. Added a guard.", "files": ["src/ui/list.py", "tests/test_list.py"], "label": "bug"}
+{"id": "p02", "split": "dev", "title": "Add CSV export to reports page", "body": "New Export button on the reports page. Downloads the current filter as CSV.", "files": ["src/reports/export.py", "src/ui/reports.py"], "label": "feature"}
+{"id": "p03", "split": "dev", "title": "Update installation guide for Python 3.12", "body": "Replaced outdated steps, added a troubleshooting section.", "files": ["docs/install.md"], "label": "docs"}
+{"id": "p04", "split": "dev", "title": "Bump ruff from 0.6.1 to 0.6.4", "body": "Dependency update, no code changes.", "files": ["pyproject.toml", "uv.lock"], "label": "chore"}
+{"id": "p05", "split": "dev", "title": "Correct timezone in invoice dates", "body": "Dates were rendered in UTC instead of the customer's timezone.", "files": ["src/billing/invoice.py"], "label": "bug"}
+{"id": "p06", "split": "dev", "title": "Support dark theme", "body": "Adds a theme switch in settings and dark color tokens.", "files": ["src/ui/theme.py", "src/ui/settings.py", "assets/dark.css"], "label": "feature"}
+{"id": "p07", "split": "dev", "title": "Fix typos in README", "body": "Spelling only.", "files": ["README.md"], "label": "docs"}
+{"id": "p08", "split": "dev", "title": "Move CI from Travis to GitHub Actions", "body": "Replaces .travis.yml with a workflow file. Same checks.", "files": [".github/workflows/ci.yml", ".travis.yml"], "label": "chore"}
+{"id": "p09", "split": "dev", "title": "Handle 429 from payments API", "body": "We retried immediately and got banned. Now we back off and respect Retry-After.", "files": ["src/payments/client.py"], "label": "bug"}
+{"id": "p10", "split": "dev", "title": "Rename utils module to helpers", "body": "No behaviour change.", "files": ["src/helpers.py", "src/app.py"], "label": "chore"}
+{"id": "p11", "split": "hold_out", "title": "Fix off-by-one in pagination", "body": "The last page was skipped when the total was a multiple of the page size.", "files": ["src/api/pagination.py", "tests/test_pagination.py"], "label": "bug"}
+{"id": "p12", "split": "hold_out", "title": "Add webhook for completed orders", "body": "Sends a POST to the configured URL when an order is completed.", "files": ["src/orders/webhooks.py", "src/orders/models.py"], "label": "feature"}
+{"id": "p13", "split": "hold_out", "title": "Add API examples for the search endpoint", "body": "Added curl and Python examples.", "files": ["docs/api/search.md"], "label": "docs"}
+{"id": "p14", "split": "hold_out", "title": "Remove unused feature flags", "body": "Deletes flags that have been enabled for everyone since March.", "files": ["src/flags.py", "src/app.py"], "label": "chore"}
+{"id": "p15", "split": "hold_out", "title": "Prevent double submit on checkout button", "body": "The button is disabled after the first click. Fixes duplicate orders.", "files": ["src/ui/checkout.py"], "label": "bug"}
+{"id": "p16", "split": "hold_out", "title": "Allow filtering tickets by tag", "body": "New tag parameter in /tickets and a filter in the UI.", "files": ["src/api/tickets.py", "src/ui/tickets.py"], "label": "feature"}
+{"id": "p17", "split": "hold_out", "title": "Update Dockerfile base image to python:3.12-slim", "body": "Security patches in the new base image.", "files": ["Dockerfile"], "label": "chore"}
+{"id": "p18", "split": "hold_out", "title": "Document environment variables", "body": "Table of all environment variables with defaults.", "files": ["docs/config.md"], "label": "docs"}
+{"id": "p19", "split": "hold_out", "title": "Fix memory leak in image cache", "body": "Entries were never evicted. Added an LRU limit.", "files": ["src/cache/images.py"], "label": "bug"}
+{"id": "p20", "split": "hold_out", "title": "Add Spanish translation", "body": "Adds es locale files and a language switch.", "files": ["locales/es.json", "src/i18n.py"], "label": "feature"}
+{"id": "p21", "split": "hold_out", "title": "Add pre-commit config", "body": "Runs ruff and mypy before each commit.", "files": [".pre-commit-config.yaml"], "label": "chore"}
+{"id": "p22", "split": "hold_out", "title": "Fix null pointer when profile has no avatar", "body": "avatar_url could be None.", "files": ["src/profile/view.py"], "label": "bug"}
+{"id": "p23", "split": "hold_out", "title": "Clarify contributing guide", "body": "Explains how to run tests locally and how reviews work.", "files": ["CONTRIBUTING.md"], "label": "docs"}
+{"id": "p24", "split": "hold_out", "title": "Add bulk delete for notifications", "body": "Select several notifications and delete them in one click.", "files": ["src/notifications/api.py", "src/ui/notifications.py"], "label": "feature"}
+{"id": "p25", "split": "hold_out", "title": "Migrate tests from unittest to pytest", "body": "Mechanical conversion, no test logic changed.", "files": ["tests/test_a.py", "tests/test_b.py", "tests/test_c.py"], "label": "chore"}
+{"id": "p26", "split": "hold_out", "title": "Stop logging passwords in debug mode", "body": "The request body was logged in full. Now sensitive fields are masked.", "files": ["src/logging.py"], "label": "bug"}
+{"id": "p27", "split": "hold_out", "title": "Add health endpoint", "body": "GET /health returns 200 and the app version.", "files": ["src/api/health.py"], "label": "feature"}
+{"id": "p28", "split": "hold_out", "title": "Add architecture diagram", "body": "Mermaid diagram of the services in the docs.", "files": ["docs/architecture.md"], "label": "docs"}
+{"id": "p29", "split": "hold_out", "title": "Bump version to 2.4.0", "body": "Release preparation.", "files": ["pyproject.toml", "CHANGELOG.md"], "label": "chore"}
+{"id": "p30", "split": "hold_out", "title": "Fix wrong total with discount codes", "body": "The discount was applied twice when quantity > 1.", "files": ["src/cart/total.py", "tests/test_total.py"], "label": "bug"}
+{"id": "p31", "split": "hold_out", "title": "Export dashboard as PDF", "body": "Adds PDF export using the existing report renderer.", "files": ["src/dashboard/pdf.py"], "label": "feature"}
+{"id": "p32", "split": "hold_out", "title": "Fix lint warnings", "body": "Unused imports and shadowed names. No behaviour change.", "files": ["src/a.py", "src/b.py", "src/c.py"], "label": "chore"}
+{"id": "p33", "split": "hold_out", "title": "Fix broken links in docs", "body": "Several links pointed to the old domain.", "files": ["docs/index.md", "docs/faq.md"], "label": "docs"}
+{"id": "p34", "split": "hold_out", "title": "Retry on connection reset in uploader", "body": "Uploads failed on flaky networks. Now retried up to 3 times.", "files": ["src/uploader.py"], "label": "bug"}
+{"id": "p35", "split": "hold_out", "title": "Add rate limiting to public API", "body": "100 requests per minute per key, configurable.", "files": ["src/api/limits.py", "src/config.py"], "label": "feature"}
+{"id": "p36", "split": "hold_out", "title": "Delete old migration scripts", "body": "Scripts for versions before 1.0 are no longer supported.", "files": ["scripts/migrate_0_8.py", "scripts/migrate_0_9.py"], "label": "chore"}
+{"id": "p37", "split": "hold_out", "title": "Fix wrong sort order of search results", "body": "Results with the same score were returned in random order.", "files": ["src/search/rank.py"], "label": "bug"}
+{"id": "p38", "split": "hold_out", "title": "Add changelog for 2.3", "body": "Lists new features and fixes.", "files": ["CHANGELOG.md"], "label": "docs"}
+{"id": "p39", "split": "hold_out", "title": "Add CLI command to import users", "body": "usersctl import reads a CSV and creates users.", "files": ["cli/users.py"], "label": "feature"}
+{"id": "p40", "split": "hold_out", "title": "Pin transitive dependencies", "body": "Adds a lock file for reproducible installs.", "files": ["requirements.lock"], "label": "chore"}

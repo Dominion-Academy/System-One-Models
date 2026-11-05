@@ -1,0 +1,25 @@
+text,category
+"My card was charged $49 twice for the same invoice.",billing
+"Please send me the invoice for March, our accountant needs it.",billing
+"I cancelled the subscription last week but the renewal fee was taken anyway.",billing
+"Why did the price of my plan go up this month?",billing
+"The refund you promised ten days ago has not arrived on my card.",billing
+"Can I switch from monthly to annual payments and keep the discount?",billing
+"The webhook endpoint returns a 502 error for every event since this morning.",technical
+"The dashboard freezes when I open the reports page with more than 1000 rows.",technical
+"Your API rejects valid JSON with a 400 error and an empty message.",technical
+"The mobile app crashes right after the splash screen on Android 15.",technical
+"File uploads stop at 99 percent and then fail with a timeout.",technical
+"The CSV export contains broken characters instead of accented letters.",technical
+"I cannot log in, the password reset email never arrives.",account
+"How do I change the email address on my profile?",account
+"Please delete my account and all my personal data.",account
+"Two-factor codes stopped working after I changed my phone.",account
+"I want to add a colleague to our team workspace as an admin.",account
+"My username shows the wrong company name, how can I edit it?",account
+"Do you plan to add a dark theme to the dashboard?",other
+"Thanks for the quick help last time, the support team was great.",other
+"Where can I find your office address for the contract?",other
+"Is there a discount for non-profit organizations?",other
+"I would like to suggest an integration with our CRM.",other
+"Can you recommend a partner who builds custom reports?",other

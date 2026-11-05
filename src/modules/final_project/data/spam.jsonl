@@ -1,0 +1,40 @@
+{"id": "s01", "split": "dev", "text": "CONGRATULATIONS! You have won a $1000 gift card. Click http://bit.ly/claim-now within 24 hours to claim your prize.", "label": "spam"}
+{"id": "s02", "split": "dev", "text": "Hi Anna, the meeting is moved to 15:00 tomorrow. Same room. Please bring the Q3 numbers.", "label": "ham"}
+{"id": "s03", "split": "dev", "text": "Your account will be suspended. Verify your password immediately at secure-login-update.example.com", "label": "spam"}
+{"id": "s04", "split": "dev", "text": "Your order #48213 has shipped and will arrive on Thursday. Track it in your account.", "label": "ham"}
+{"id": "s05", "split": "dev", "text": "Make $5000 a week working from home. No experience needed. Reply YES to start.", "label": "spam"}
+{"id": "s06", "split": "dev", "text": "Reminder: your dentist appointment is on Monday at 10:30. Reply C to confirm.", "label": "ham"}
+{"id": "s07", "split": "dev", "text": "Cheap meds without prescription, 80% off, ships worldwide. Buy now!!!", "label": "spam"}
+{"id": "s08", "split": "dev", "text": "Can you review my pull request when you have a minute? It's the small fix for the export bug.", "label": "ham"}
+{"id": "s09", "split": "dev", "text": "Dear customer, we noticed unusual activity on your card. Please confirm your details to avoid a block: card-check.example.net", "label": "spam"}
+{"id": "s10", "split": "dev", "text": "Spring sale: 20% off all plans until Sunday. You are receiving this because you subscribed to our newsletter. Unsubscribe any time.", "label": "ham"}
+{"id": "s11", "split": "hold_out", "text": "You have been selected for a free cruise! Call 555-0199 now to claim your free tickets.", "label": "spam"}
+{"id": "s12", "split": "hold_out", "text": "Thanks for the invoice. We will pay it by the end of the month.", "label": "ham"}
+{"id": "s13", "split": "hold_out", "text": "Hot singles in your area want to meet you. Click here.", "label": "spam"}
+{"id": "s14", "split": "hold_out", "text": "Your verification code is 482913. It expires in 10 minutes. Do not share it.", "label": "ham"}
+{"id": "s15", "split": "hold_out", "text": "Final notice: your package could not be delivered. Pay a $1.99 fee at post-redelivery.example.org to reschedule.", "label": "spam"}
+{"id": "s16", "split": "hold_out", "text": "Package update: your parcel was delivered to the front desk at 14:05.", "label": "ham"}
+{"id": "s17", "split": "hold_out", "text": "Earn bitcoin daily with our trading bot, guaranteed 300% return in a month. Join the private channel.", "label": "spam"}
+{"id": "s18", "split": "hold_out", "text": "Lunch tomorrow? I found a new place near the office.", "label": "ham"}
+{"id": "s19", "split": "hold_out", "text": "Weekly digest from the Python Weekly newsletter you subscribed to: 5 new articles and 2 job posts.", "label": "ham"}
+{"id": "s20", "split": "hold_out", "text": "Dear friend, I am a prince and need your help transferring $12 million. You will receive 20%.", "label": "spam"}
+{"id": "s21", "split": "hold_out", "text": "Your monthly statement is ready. Log in to the bank app to view it.", "label": "ham"}
+{"id": "s22", "split": "hold_out", "text": "Your Netflix payment failed. Update billing here: netflix-billing-help.example.com", "label": "spam"}
+{"id": "s23", "split": "hold_out", "text": "Hi, this is Mark from the HR team. Please send the signed contract by Friday.", "label": "ham"}
+{"id": "s24", "split": "hold_out", "text": "Lose 10 kg in 7 days with this one weird trick. Doctors hate it.", "label": "spam"}
+{"id": "s25", "split": "hold_out", "text": "The build on main failed: test_export_csv timed out. Details in the CI link.", "label": "ham"}
+{"id": "s26", "split": "hold_out", "text": "Limited offer for you: 15% off your next order with code THANKS15. We saw you bought running shoes last week.", "label": "ham"}
+{"id": "s27", "split": "hold_out", "text": "Hello, I came across your profile and have a remote job offer, 3 hours a day, $400 per day. Message me on Telegram @hr_quick_job", "label": "spam"}
+{"id": "s28", "split": "hold_out", "text": "Happy birthday! Dinner at 7 on Saturday, bring your appetite.", "label": "ham"}
+{"id": "s29", "split": "hold_out", "text": "URGENT: IRS tax refund of $2,417 pending. Submit your SSN at irs-refund-portal.example.com", "label": "spam"}
+{"id": "s30", "split": "hold_out", "text": "Please find the agenda attached. Let me know if you want to add anything.", "label": "ham"}
+{"id": "s31", "split": "hold_out", "text": "Buy followers: 10,000 Instagram followers for $9. Instant delivery.", "label": "spam"}
+{"id": "s32", "split": "hold_out", "text": "Your flight to Berlin is confirmed. Booking reference QX72LP, departure 08:15.", "label": "ham"}
+{"id": "s33", "split": "hold_out", "text": "We received your support request #7711 and will reply within one business day.", "label": "ham"}
+{"id": "s34", "split": "hold_out", "text": "Hi! Just following up on my last email about our SEO services. We can put your site on the first page of Google in 30 days. Can we have a quick call?", "label": "spam"}
+{"id": "s35", "split": "hold_out", "text": "Can you send me the slides from yesterday's talk?", "label": "ham"}
+{"id": "s36", "split": "hold_out", "text": "You've won an iPhone 17! Take a 30-second survey to claim.", "label": "spam"}
+{"id": "s37", "split": "hold_out", "text": "Your password was changed successfully. If this wasn't you, contact support.", "label": "ham"}
+{"id": "s38", "split": "hold_out", "text": "Congratulations on the promotion! Drinks on me.", "label": "ham"}
+{"id": "s39", "split": "hold_out", "text": "Re: invoice. Please open the attached file to see payment details. invoice_2291.exe", "label": "spam"}
+{"id": "s40", "split": "hold_out", "text": "Join our webinar on data pipelines on Oct 12. You registered for it last week; here is the link.", "label": "ham"}
