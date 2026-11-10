@@ -1,5 +1,8 @@
 # System One Models: Jev, Kev, Laya
 
+<img width="2955" height="820" alt="image" src="https://github.com/user-attachments/assets/37cd2fb0-2a4e-4a83-93b6-358e243311ee" />
+
+
 ## Main topics
 
 - System One Models
