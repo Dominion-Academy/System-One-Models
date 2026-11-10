@@ -31,7 +31,7 @@ uv run python -m src.modules.m1_system_one.first_request
 | Module | Topic | Examples |
 |---|---|---|
 | **1. System One** | Parsing LLM answers | [Parsing llm answers](src/modules/m1_system_one/parse_llm_reply.py) |
-|  | First Query | [Vendor response](src/modules/m1_system_one/read_vendor_response.py), [Choice and Score](src/modules/m1_system_one/first_request.py), [Laya in process](src/modules/m1_system_one/laya_in_process.py) |
+|  | First Query | [Choice and Score](src/modules/m1_system_one/first_request.py), [Laya in process](src/modules/m1_system_one/laya_in_process.py) |
 |  | Question Types | [Noul, Choice, Score](src/modules/m1_system_one/noul_choice_score.py), [Parallel vs sequential](src/modules/m1_system_one/parallel_vs_sequential.py) |
 |  | Ticket Triage | [Example](src/modules/m1_system_one/ticket_triage.py), [Client](src/ticketdesk/client.py), [Questions](src/ticketdesk/questions.py), [Triage Function](src/ticketdesk/triage.py) |
 | **2. Local Models** | Runtimes | [Running](src/modules/m2_local_models/run_tickets.py), [Comparing](src/modules/m2_local_models/compare_runs.py) |
@@ -48,6 +48,21 @@ uv run python -m src.modules.m1_system_one.first_request
 |  | Retries, fallback | [Resilient](src/ticketdesk/resilient.py), [Failures](src/modules/m5_production/failures_demo.py), [Overload](src/modules/m5_production/overload_demo.py) |
 |  | Observability | [Decision log](src/ticketdesk/decision_log.py), [Write log](src/modules/m5_production/log_decisions.py), [Recompute](src/modules/m5_production/recompute_from_log.py) |
 |  | Cost | [Cost](src/ticketdesk/cost.py), [Cost per success](src/modules/m5_production/cost_per_success.py) |
+
+## Application
+
+![Application preview](static/app_preview_1.png)
+
+![Application preview](static/app_preview_2.png)
+
+![Application preview](static/app_preview_3.png)
+
+
+```bash
+uv run python -m streamlit run src/ticketdesk/app/app.py
+```
+
+
 
 ## Scripts
 

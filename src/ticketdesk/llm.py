@@ -13,6 +13,10 @@ KEYWORDS = {
 }
 
 
+# Начало промпта классификации: по нему отличают этот вызов от черновика ответа.
+CLASSIFY_PROMPT_START = "Pick the category"
+
+
 class LLM(Protocol):
     def complete(self, prompt: str) -> str: ...
 
@@ -58,20 +62,26 @@ class OpenAICompatibleLLM:
         return str(reply["choices"][0]["message"]["content"]).strip()
 
 
-def llm_from_env() -> LLM:
-    api_key = os.environ.get("LLM_API_KEY", "").strip()
-    if not api_key:
+def make_llm(base_url: str, api_key: str, model: str) -> LLM:
+    """Без ключа возвращает заглушку, с ключом OpenAI-совместимый клиент."""
+    if not api_key.strip():
         return StubLLM()
     return OpenAICompatibleLLM(
+        base_url=base_url.strip(), api_key=api_key.strip(), model=model.strip()
+    )
+
+
+def llm_from_env() -> LLM:
+    return make_llm(
         base_url=os.environ.get("LLM_BASE_URL", "https://api.openai.com/v1"),
-        api_key=api_key,
+        api_key=os.environ.get("LLM_API_KEY", ""),
         model=os.environ.get("LLM_MODEL", "gpt-4.1-mini"),
     )
 
 
 def classify_with_llm(llm: LLM, subject: str, body: str) -> Category:
     prompt = (
-        "Pick the category of the support ticket. "
+        f"{CLASSIFY_PROMPT_START} of the support ticket. "
         "Answer with one word: billing, technical, account or other.\n\n"
         f"Subject: {subject}\n\n{body}"
     )

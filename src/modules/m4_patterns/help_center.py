@@ -22,16 +22,16 @@ ARTICLES = {
 }
 
 QUERIES = [
-    ("I was charged twice this month, how do I get my money back?", "refunds"),
     ("Where can I download last year's invoices with our VAT number?", "invoices"),
     ("The password reset email never arrives.", "password_reset"),
     ("I lost my phone with the authenticator app and can't sign in.", "two_factor"),
     ("How do I verify that a webhook request really came from you?", "webhooks"),
-    ("How do I get more than 100 results from the list endpoint?", "api_limits"),
     ("I need a copy of all our project data for an audit.", "export"),
     ("How do I give a new colleague access to our workspace?", "team"),
-    ("Can I get my money back for the invoice from March?", "refunds"),
-    ("My API calls started failing with 429 errors.", "api_limits"),
+    ("Your system took my payment two times, please return it.", "refunds"),
+    ("Our integration gets blocked after a burst of requests.", "api_limits"),
+    ("Can I take all my projects with me if we cancel?", "export"),
+    ("How do I check that the payload you send to our endpoint is genuine?", "webhooks"),
 ]
 
 WORD = re.compile(r"[a-z0-9]+")
@@ -66,18 +66,7 @@ def relevance(client: TypeSafeClient, query: str, article_ids: list[str]) -> dic
     return scores
 
 
-def relevance_one_request(
-    client: TypeSafeClient, query: str, article_ids: list[str]
-) -> dict[str, float]:
-    """Один запрос на все статьи: каждая статья в instructions своего вопроса."""
-    questions = {
-        article_id: Noul(
-            instructions=(
-                "The help article answers the customer's question.\n\n"
-                f"Article: {ARTICLES[article_id]}"
-            ),
-        )
-        for article_id in article_ids
-    }
-    response = client.system_one(state=f"Customer question: {query}", questions=questions)
-    return {article_id: answer.noul for article_id, answer in response.nouls.items()}
+def rerank(client: TypeSafeClient, query: str, candidates: list[str]) -> list[str]:
+    """Переставляет кандидатов поиска по вероятности релевантности от Noul."""
+    scores = relevance(client, query, candidates)
+    return sorted(candidates, key=lambda article_id: -scores[article_id])

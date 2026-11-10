@@ -5,6 +5,7 @@ description = "Код курса Jev"
 requires-python = ">=3.14"
 dependencies = [
     "laya[serve]>=0.4.21",
+    "streamlit>=1.67.0",
     "typesafe-sdk>=0.7.5",
 ]
 

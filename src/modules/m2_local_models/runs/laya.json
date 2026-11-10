@@ -5,7 +5,7 @@
     "category_probability": 0.9317,
     "urgent": true,
     "urgent_probability": 0.5312,
-    "seconds": 2.717030399988289
+    "seconds": 3.5535220000019763
   },
   {
     "ticket": "Our API integration started returning 500 errors on every request 20 minutes ago. We can't process any customer orders until this is fixed.",
@@ -13,7 +13,7 @@
     "category_probability": 0.8485,
     "urgent": true,
     "urgent_probability": 0.6197,
-    "seconds": 0.5117781000008108
+    "seconds": 0.5015803999849595
   },
   {
     "ticket": "How do I change the email address on my account? No rush, just curious.",
@@ -21,7 +21,7 @@
     "category_probability": 0.3102,
     "urgent": false,
     "urgent_probability": 0.3921,
-    "seconds": 0.5000878999999259
+    "seconds": 0.4666482000029646
   },
   {
     "ticket": "Hi! Do you have a dark theme for the dashboard? It would be a nice feature to have.",
@@ -29,7 +29,7 @@
     "category_probability": 0.5126,
     "urgent": false,
     "urgent_probability": 0.4011,
-    "seconds": 0.5271310999960406
+    "seconds": 0.500888800015673
   },
   {
     "ticket": "I can't log in: the password reset email never arrives, and I have a demo for investors in one hour.",
@@ -37,6 +37,6 @@
     "category_probability": 0.9084,
     "urgent": false,
     "urgent_probability": 0.4886,
-    "seconds": 0.5125557999999728
+    "seconds": 0.49320240001543425
   }
 ]
