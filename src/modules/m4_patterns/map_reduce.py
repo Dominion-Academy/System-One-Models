@@ -55,11 +55,10 @@ def reduce_features(features: list[Features]) -> None:
 
 def main() -> None:
     tickets = load_tickets()
-    for concurrency in (1, CONCURRENCY):
-        started = time.perf_counter()
-        features = asyncio.run(map_tickets(tickets, concurrency))
-        seconds = time.perf_counter() - started
-        print(f"{len(tickets)} тикетов, одновременно {concurrency}: {seconds:.1f} с")
+    started = time.perf_counter()
+    features = asyncio.run(map_tickets(tickets, CONCURRENCY))
+    seconds = time.perf_counter() - started
+    print(f"{len(tickets)} тикетов, одновременно {CONCURRENCY}: {seconds:.1f} с")
     print()
     reduce_features(features)
 
